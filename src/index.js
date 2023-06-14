@@ -8,7 +8,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 ReactDOM.render(
   <React.StrictMode>
-    <TopicMapContextProvider appKey="rainhazardmap-base-text-tester">
+    <TopicMapContextProvider appKey="ais-euskirchen-texts-tester">
       <App />
     </TopicMapContextProvider>
   </React.StrictMode>,
