@@ -33,3 +33,4 @@ yarn-error.log*
 .version
 .githash
 .gitdescribe
+.npmrc
