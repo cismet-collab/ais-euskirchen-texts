@@ -1191,9 +1191,9 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@cismet-collab/rainhazardmaps-base-textss@^1.0.0":
+"@cismet-collab/rainhazardmaps-base-texts@^1.0.0":
   version "1.0.0"
-  resolved "https://npm.pkg.github.com/download/@cismet-collab/rainhazardmaps-base-textss/1.0.0/2e49b03aa4d956183f3bc58d9a651f8b29b4239a#2e49b03aa4d956183f3bc58d9a651f8b29b4239a"
+  resolved "https://npm.pkg.github.com/download/@cismet-collab/rainhazardmaps-base-texts/1.0.0/2e49b03aa4d956183f3bc58d9a651f8b29b4239a#2e49b03aa4d956183f3bc58d9a651f8b29b4239a"
   integrity sha512-KuBrFW7ngRYdAvfqpVDs11jD9HmwDzsXtddQrKiu7CB5/FOlqudkWfIiqd/QlcuoHSDqMmjPCo8E7e879fJc8A==
   dependencies:
     "@testing-library/jest-dom" "^5.16.5"
@@ -9537,7 +9537,7 @@ polygon-clipping@^0.15.3:
   dependencies:
     splaytree "^3.1.0"
 
-"polylabel@github:mapbox/polylabel":
+polylabel@mapbox/polylabel:
   version "1.1.0"
   resolved "https://codeload.github.com/mapbox/polylabel/tar.gz/07c112091b4c9ffeb412af33c575133168893b4a"
   dependencies:
