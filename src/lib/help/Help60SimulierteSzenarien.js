@@ -93,7 +93,7 @@ const Component = ({ uiState, uiStateActions }) => {
             </li>
 
             <li>
-              <strong>Stärke 9/10</strong>: Ereignis 14.07.2021, Zeitraum 06:30
+              <strong>Flut 2021</strong>: Ereignis 14.07.2021, Zeitraum 06:30
               Uhr bis 22:00 Uhr, räumlich differenzierte Niederschlagsbelastung
               und -verteilung, Betrachtung ortsspezifischer Belastungen,
               Wiederkehrzeiten und Einteilung des SRI erforderlich
