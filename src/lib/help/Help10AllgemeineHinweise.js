@@ -23,7 +23,7 @@ const Component = () => {
             align="right"
           />
           <p>
-            Die Starkregengefahrenkarte im "AIS Starkregenvorsorge Kreis
+            Die xxx Starkregengefahrenkarte im "AIS Starkregenvorsorge Kreis
             Euskirchen" stellt in drei umschaltbaren Kartenansichten maximale
             Wassertiefen bzw. maximale Fließgeschwindigkeiten im gesamten
             Kreisgebiet, d. h. für alle elf Kommunen des Kreises Euskirchen,
