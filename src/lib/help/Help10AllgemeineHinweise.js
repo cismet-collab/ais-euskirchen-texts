@@ -85,8 +85,8 @@ const Component = () => {
             fließt oberirdisch ab, wobei im urbanen Raum sowohl die
             Leistungsfähigkeit des Kanalnetzes als auch der Überstau des
             Kanalnetzes einen Einfluss auf die Überflutungssituation haben kann.
-            Das Abflussverhalten des Kanalnetzes wurde durch eine kombinierte
-            Betrachtung berücksichtigt. Die Eigenschaften der Geländeoberfläche
+            Die Leistungsfähigkeit des Kanalnetzes wird hier nur geringfügig und pauschal berücksichtigt.
+            Die Eigenschaften der Geländeoberfläche
             variieren je nach Flächennutzung. Die verschiedenen
             Oberflächeneigenschaften wurden im Modell über unterschiedliche
             Geländerauheiten und zeitlich variable Versickerungsansätze
@@ -97,7 +97,14 @@ const Component = () => {
             können in Teilgebieten die Wassertiefen auf dem Gelände höher oder
             geringer ausfallen. Um diese Variationen zu verstehen und besser
             einschätzen zu können, sind die unterschiedlichen Szenarien
-            dargestellt.
+            dargestellt. Weitere Informationen sind in dem Reiter {" "}
+            <a
+              className="renderAsLink"
+              onClick={() => setAppMenuActiveMenuSection("aussagekraft")}
+            >
+              "Aussagekraft der Simulationen" 
+            </a>
+            &nbsp;zu finden.
           </p>
         </div>
       }
