@@ -12,7 +12,6 @@ import Help15Datengrundlage from "./help/Help15Datengrundlage";
 import Help20Karteninhalt from "./help/Help20Karteninhalt";
 import Help30InKartePositionieren from "./help/Help30InKartePositionieren";
 import Help40MeinStandort from "./help/Help40MeinStandort";
-import Help50WasserstandAbfragen from "./help/Help50WasserstandAbfragen";
 import Help60SimulierteSzenarien from "./help/Help60SimulierteSzenarien";
 import Help70AussagekraftDerSimulationen from "./help/Help70AussagekraftDerSimulationen";
 import Help90Haftungsausschluss from "./help/Help90Haftungsausschluss";
@@ -33,7 +32,6 @@ const getCollabedHelpComponentConfig = ({
     <Help20Karteninhalt key="Karteninhalt" />,
     <Help30InKartePositionieren key="InKartePositionieren" />,
     <Help40MeinStandort key="MeinStandort" />,
-    <Help50WasserstandAbfragen key="WasserstandAbfragen" />,
     <Help60SimulierteSzenarien key="SimulierteSzenarien" />,
     <Help70AussagekraftDerSimulationen key="AussagekraftDerSimulationen" />,
     <Help80ModellfehlerMelden key="ModellfehlerMelden" email={email} />,
