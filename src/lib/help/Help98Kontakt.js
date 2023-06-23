@@ -22,7 +22,15 @@ const Component = ({ email }) => {
           </p>
           <p>
             Weitere Informationen zum Thema „Schutz vor Starkregen“ finden Sie
-            auf der Homepage des Kreises Euskirchen.
+            auf der Homepage des Kreises Euskirchen. {" "}
+              <a
+                target="_legal"
+                href="https://www.kreis-euskirchen.de/fileadmin/dokumente/Hochwasserportal/Kontaktinformationen_Kommunen.pdf"
+              >
+                Ansprechpartner:innen aus
+            den einzelnen Kommunen
+              </a>{" "}
+            &nbsp; werden ebenfalls aufgeführt.            
           </p>
 
           <p style={{ display: "flex" }}>
@@ -35,7 +43,7 @@ const Component = ({ email }) => {
               <br />
               53879 Euskirchen
               <br />
-              Telefon: 02251 15-8850
+              Telefon: 02251 15-234
               <br />
               E-Mail: <a href="mailto:{email)}">{email}</a>
               <br />
@@ -53,7 +61,7 @@ const Component = ({ email }) => {
             <tbody>
               <tr>
                 <td style={{ textAlign: "left", paddingBottom: 20 }}>
-                  <strong>Bearbeitung des Starkregenrisikomanagement</strong>
+                  <strong>Bearbeitung der Starkregengefahrenkarte</strong>
                 </td>
                 <td style={{ textAlign: "left", paddingBottom: 20 }}>
                   <strong>
