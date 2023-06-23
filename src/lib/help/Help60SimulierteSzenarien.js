@@ -31,30 +31,31 @@ const Component = ({ uiState, uiStateActions }) => {
 
           <p>
             Im dritten Szenario wurden Niederschlagsdaten vom 14.07.2021
-            verwendet und damit ein Großteil der Niederschlagsbelastung des
+            verwendet und damit ein wichtiger Ausschnitt der Niederschlagsbelastung des
             Flutereignisses aus 2021 abgebildet. Der Vorregen vom 13.07.2021
-            wurde dabei nicht betrachtet. Grundlage für die Abbildung des
-            Niederschlags bilden die, durch das LANUV zur Verfügung gestellten
-            aufbereiteten Radarniederschlagsdaten aus dem BUFR-Sweep-Produkt,
-            die mit einer räumlichen Auflösung von 1x1 Kilometern und einer
-            zeitlichen Auflösung von 5 Minuten das Niederschlagsgeschehen
-            abbilden. Die Simulationen betrachten den Niederschlagszeitraum von
+            konnte im Rahmen des Projekts nicht betrachtet werden. Grundlage für die Abbildung des
+            Niederschlags bilden die Daten aus dem Kooperationsprojekt DX-Offline, die durch das LANUV
+            bereitgestellt wurden. Die aufbereiteten Radarniederschlagsdaten bilden das Niederschlagsgeschehen
+            mit einer räumlichen Auflösung von 1 x 1 Kilometern und einer
+            zeitlichen Auflösung von 5 Minuten ab. Die Simulationen betrachten den Niederschlagszeitraum von
             06:30 Uhr bis 22:00 Uhr. Anschließend werden noch weitere 210
             Minuten Nachlaufzeit simuliert. Mit diesen Simulationsbedingungen
-            werden insbesondere auch Hochwasserprozesse betrachet, wobei keine
-            lokale Kalibrierung der hydrologischen Prozess erfolgen konnte.
+            werden insbesondere auch Hochwasserprozesse betrachtt, wobei keine
+            lokale Kalibrierung der Niederschlags-Abflussprozesse erfolgen konnte.
             Neben den Niederschlagsdaten wurden in den Simulationen keine
-            weiteren hydrologsichen Daten zum Flutereignis 2021 verwendet. Eine
+            weiteren hydrologischen Daten zum Flutereignis 2021 verwendet. Eine
             detaillierte Betrachtung des Flutereignisses kann im Rahmen des
             Hochwasserrisikomanagements erfolgen. Die vorliegenden Ergebnisse
-            berücksichtigten nur die Niederschlagsbelastung. Weitere Hinweise
+            berücksichtigten die Niederschlagsbelastung und den Modellstand mit den Geländedaten
+            aus 2021/2022 (nach dem Flutereignis). Weitere Hinweise
             sind im Reiter{" "}
             <a
               className="renderAsLink"
               onClick={() => setAppMenuActiveMenuSection("aussagekraft")}
             >
-              "Aussagekraft der Simulationen" zu finden.
+              "Aussagekraft der Simulationen"
             </a>
+            &nbsp;zu finden.
           </p>
 
           <p>
@@ -93,10 +94,10 @@ const Component = ({ uiState, uiStateActions }) => {
             </li>
 
             <li>
-              <strong>Flut 2021</strong>: Ereignis 14.07.2021, Zeitraum 06:30
+              <strong>Niederschlag 14.07.2021</strong>: Ereignis 14.07.2021, Zeitraum 06:30
               Uhr bis 22:00 Uhr, räumlich differenzierte Niederschlagsbelastung
               und -verteilung, Betrachtung ortsspezifischer Belastungen,
-              Wiederkehrzeiten und Einteilung des SRI erforderlich
+              Wiederkehrzeiten und Einteilung des SRI erforderlich.
             </li>
           </ul>
         </div>
