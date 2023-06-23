@@ -20,8 +20,8 @@ const Component = () => {
             basieren auf einem vereinfachten Modell der tatsächlichen
             Verhältnisse, mit dem sich kritischere Bereiche jedoch gut bestimmen
             lassen. Für eine noch differenziertere Modellierung müssten höher
-            aufgelöste Geländedaten sowie detailliertere hydrologischen
-            Grundlagen vorliegen und kleinräumige Strukturen wie Gartenmauern
+            aufgelöste Geländedaten, sowie detailliertere hydrologischen
+            Grundlagen vorliegen und kleinräumige Strukturen (z. B. Gartenmauern)
             detailliert eingearbeitet werden.{" "}
           </p>
 
@@ -79,15 +79,15 @@ const Component = () => {
 
           <p>
             <strong>
-              Die Modellannahmen, die stadtgebietsweite Niederschlagsbelastung
+              Die Modellannahmen, die abgebildete (gebietsweite) Niederschlagsbelastung
               und Fehler im Geländemodell können dazu führen, dass es zu
               Abweichungen zwischen den Simulationsergebnissen und beobachteten
               Überflutungen infolge von Starkregen kommen kann. Niederschläge
               der Stufe SRI 7 bzw. 9/10 können daher je nach Randbedingungen in
-              der Realität auch etwas geringere oder höhere Wassertiefen auf der
+              der Realität auch geringere oder höhere Wassertiefen auf der
               Geländeoberfläche zur Folge haben.
             </strong>{" "}
-            Die unterschiedlichen Betroffenheiten im Stadtgebiet lassen sich
+            Die unterschiedlichen Betroffenheiten im Stadt- bzw. Kreisgebiet lassen sich
             aber sehr gut mit den Ergebnisdarstellungen aufzeigen. Die
             dargestellten Szenarien (außergewöhnliches und extremes
             Starkregenereignis) zeigen eine mögliche Spannweite der
@@ -100,34 +100,32 @@ const Component = () => {
             <strong>
               {" "}
               Bitte berücksichtigen Sie, dass die Ergebnisse des dritten
-              Szenarios (Simulation des Extremereignisses vom 14. Juli 2021)
+              Szenarios (Simulation des Niederschlags vom 14. Juli 2021)
               nicht unmittelbar mit den Ergebnissen der Modellregen (Szenario 1
               und 2) verglichen werden können.{" "}
             </strong>{" "}
-            Das Niederschlagsereignis im Juli 2021 war ein Ausnahmeereignis,
-            welches aus infolge vieler Randbedingungen und Umstände entstanden
+            Das Niederschlagsereignis im Juli 2021 war ein extremes Ausnahmeereignis,
+            welches aus dem komplexen Zusammenwirken vieler Randbedingungen entstanden
             ist. Alle Randbedingungen können im Modell nicht abgebildet werden.
-            Die Simulationsergebnisse jenes Niederschlages basieren entsprechend
-            lediglich auf der Grundlage des Niederschlagsverlaufes, der damals
-            stattgefunden hat. Weitere hydrologische Grundlagen, wie bspw.
-            Hochwassereinflüsse oder besondere Umstände, die bspw. zu Zerstörung
-            von Brücken oder Gebäuden geführt haben, können nicht abgebildet
-            werden und die Ergebnisse beeinflussen. Bereiche in der Nähe großer
-            Gewässer oder jener Gewässer, die unter besonderem
+            Die Simulationsergebnisse des Szenarios basieren auf der Grundlage des Niederschlagsverlaufes, der damals
+            erfasst wurde. Weitere hydrologische Grundlagen, wie bspw.
+            Hochwassereinflüsse oder Umstände, die bspw. zu Zerstörung
+            von Brücken, Rückhalteräumen oder Gebäuden geführt haben, können nicht abgebildet
+            werden. Diese Prozesse hatten einen Einfluss auf das Überflutungsgeschehen am 14. und 15.07.2021.
+            Bereiche in der Nähe großer Gewässer oder Gewässer, die unter besonderem
             Hochwassereinfluss stehen können, sollten grundsätzlich nur unter
             Hinzunahme und Berücksichtigung der geltenden
-            Hochwassergefahrenkarten, welche in einem Layer in der Darstellung
-            ergänzt werden können, interpretiert werden. Weiterhin ist zu
+            Hochwassergefahrenkarten interpretiert werden. Weiterhin ist zu
             bedenken, dass das für die Simulation verwendete Geländemodell aus
             Befliegungsdaten stammt, die nach der Flut aufgenommen wurden. Auch
-            hier können daher Differenzen zwischen den Simulationsergebnissen
-            und den damaligen Folgen und Geschehnissen auftreten. Bereiche, in
-            denen infolge der Flut derzeit große, für das Abflussgeschehen
-            bedeutsame Maßnahmen in Umsetzung sind, werden daher in der Karte
-            mit einem extra Layer abgedeckt, um Irritationen und
-            Missverständnisse zu vermeiden. Wir möchten betonen, dass der Fokus
+            hier treten zwangsläufig Differenzen zwischen den Simulationsergebnissen
+            und den damaligen Folgen und Geschehnissen auf. Bereiche, in
+            denen (auch infolge der Flut) große, für das Abflussgeschehen
+            bedeutsame Maßnahmen in Umsetzung sind oder bereits umgesetzt wurden, werden
+            daher in der Karte mit einem extra Layer abgedeckt, um Irritationen und
+            Missverständnisse zu vermeiden. Es soll betont werden, dass der Fokus
             dieser Karte auf der Starkregenvorsorge liegt und nicht auf der
-            Reproduktion bzw. Imitation des realen Ereignisses von 2021.
+            Reproduktion des realen Ereignisses von 2021.
           </p>
           <p>
             Da nicht alle kleinräumigen Strukturen im Digitalen Geländemodell
