@@ -72,14 +72,20 @@ const Component = () => {
           <ul>
             <li>
               Landesweite Daten / Bezirksregierung Köln: Digitales
-              Geländemodell, Digitales Lanschaftsmodell, ALKIS-Daten,
+              Geländemodell (DGM1), Digitales Landschaftsmodell, ALKIS-Daten,
               ELWAS-Daten (Datenlizenz Deutschland Zero
-              (https://www.govdata.de/dl-de/zero-2-0))
+              (
+              <a
+                target="_legal"
+                href="https://www.govdata.de/dl-de/zero-2-0"
+              >
+                https://www.govdata.de/dl-de/zero-2-0
+              </a>))
             </li>
 
             <li>
               Kreis Euskirchen: Auszüge Liegenschaftskataster, Dokumentation
-              Flutereignis 2021
+              Ereignis vom 14. und 15.07.2021
             </li>
 
             <li>Erftverband: Querprofile, Bauwerksinformationen</li>
@@ -89,42 +95,13 @@ const Component = () => {
               Stauanlagen
             </li>
 
-            <li>Bad Münstereifel: Dokumentation Durchlässe</li>
-
-            <li>
-              Blankenheim: Dokumentation Durchlässe, Auszug Kanalbestand,
-              Informationen zu Stauanlagen
+            <li>Kommunen: Unterschiedliche Datensätzen zur Siedlungsentwässerung (Bauwerke und Kanalbestand), Lage von Verrohrungen und Durchlässen,
+                bisherigen Schadensereignissen und umgesetzten Maßnahmen nach dem Ereignis 2021. Die Daten wurden je nach Verfügbarkeit in den Kommunen
+                zur Modellbearbeitung zur Verfügung gestellt. Darüber hinaus erfolgte eine weitergehende Datenerfassung und Modellprüfung in einer Online-Karte.
+                
             </li>
 
-            <li>
-              Dahlem: Dokumentation Durchlässe, Auszug Kanalbestand,
-              Informationen zu Stauanlagen
-            </li>
-
-            <li>
-              Euskirchen: Dokumentation Durchlässe, Auszug Kanalbestand,
-              Dokumentation Schadensereignisse, Gewässernetz und -verrohrungen
-            </li>
-
-            <li>
-              Hellenthal: Dokumentation Durchlässe, Auszug Kanalbestand,
-              Dokumentation Schadensereignisse
-            </li>
-
-            <li>Kall: Dokumentation Durchlässe</li>
-
-            <li>Mechernich:</li>
-
-            <li>
-              Nettersheim: Auszug Kanalbestand, Dokumentation Schadensereignisse
-            </li>
-
-            <li>Schleiden: Dokumentation Durchlässe, Auszug Kanalbestand</li>
-
-            <li>Weilerwist: Auszug Kanalbestand</li>
-
-            <li>Zülpich: Auszug Kanalbestand</li>
-          </ul>
+            </ul>
 
           <p>
             Zur Betrachtung der Ergebnisse stehen drei verschiedene
