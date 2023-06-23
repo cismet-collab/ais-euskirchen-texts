@@ -75,6 +75,13 @@ const Component = () => {
               dargestellten Starkregen große Anteile oberirdisch ab oder können
               nicht mehr in das Kanalnetz eintreten.
             </li>
+
+            <li>
+              Lokale Verhältnisse sind immer zur prüfen. Dabei sind auch die Funktion und Wirkung
+              von Grundstücksentwässerungsanlagen zu berücksichtigen. Diese können im Modell
+              für das gesamte Kreisgebiet nicht berücksichtigt werden. Die Abbildung von bereits getroffenen
+              Maßnahmen sollte ortsspezifisch ebenfalls überprüft werden.  
+            </li>
           </ul>
 
           <p>
@@ -101,8 +108,8 @@ const Component = () => {
               {" "}
               Bitte berücksichtigen Sie, dass die Ergebnisse des dritten
               Szenarios (Simulation des Niederschlags vom 14. Juli 2021)
-              nicht unmittelbar mit den Ergebnissen der Modellregen (Szenario 1
-              und 2) verglichen werden können.{" "}
+              nicht unmittelbar mit den Ergebnissen der Modellregen (SRI 7 und SRI 9/10)
+              verglichen werden können.{" "}
             </strong>{" "}
             Das Niederschlagsereignis im Juli 2021 war ein extremes Ausnahmeereignis,
             welches aus dem komplexen Zusammenwirken vieler Randbedingungen entstanden
@@ -117,10 +124,10 @@ const Component = () => {
             Hinzunahme und Berücksichtigung der geltenden
             Hochwassergefahrenkarten interpretiert werden. Weiterhin ist zu
             bedenken, dass das für die Simulation verwendete Geländemodell aus
-            Befliegungsdaten stammt, die nach der Flut aufgenommen wurden. Auch
+            Befliegungsdaten stammt, die nach dem Ereignis aufgenommen wurden. Auch
             hier treten zwangsläufig Differenzen zwischen den Simulationsergebnissen
             und den damaligen Folgen und Geschehnissen auf. Bereiche, in
-            denen (auch infolge der Flut) große, für das Abflussgeschehen
+            denen (auch infolge des Ereignisses) große, für das Abflussgeschehen
             bedeutsame Maßnahmen in Umsetzung sind oder bereits umgesetzt wurden, werden
             daher in der Karte mit einem extra Layer abgedeckt, um Irritationen und
             Missverständnisse zu vermeiden. Es soll betont werden, dass der Fokus
@@ -134,10 +141,12 @@ const Component = () => {
             Sie, dabei zu helfen, das DGM sukzessive zu verbessern, indem Sie
             vermutete{" "}
             <a
-              onClick={() => setAppMenuActiveMenuSection("modellfehlermelden")}
+              className="renderAsLink"
+              onClick={() => setAppMenuActiveMenuSection("ModellfehlerMelden")}
             >
               Fehler im Geländemodell melden
             </a>
+
             ! Bedenken Sie, dass es sein kann, dass ein neues Gebäude in den
             Simulationen nicht berücksichtigt wurde, weil es zum Zeitpunkt der
             Datenbereitstellung für die Simulationsberechnungen noch nicht im

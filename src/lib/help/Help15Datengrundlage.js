@@ -35,13 +35,18 @@ const Component = () => {
             das Digitale Geländemodell (DGM1). Als Grundlage hierfür dienen
             flächenhafte Höhenmessungen, die das Land NRW turnusmäßig mit einem
             Laserscanner aus einem Flugzeug heraus durchführt (Aufnahme durch
-            Laseraltimetrie im Jahr 2021 und 2022). Für die Simulation wurde das
+            Laseraltimetrie in den Jahren 2021 und 2022). Für die Simulation wurde das
             DGM1 um die Gebäude aus dem Liegenschaftskataster des Kreises
             Euskirchen (10/2022) ergänzt. Außerhalb des Kreisgebietes wurden
             Daten des Bundesamts für Kartographie und Geodäsie verwendet
-            (Bundesamt für Kartographie und Geodäsie, © GeoBasis-DE / BKG
-            (2023)).
-          </p>
+            (Bundesamt für Kartographie und Geodäsie, <a
+                target="_legal"
+                href="http://sg.geodatenzentrum.de/web_public/gdz/datenquellen/Datenquellen_TopPlusOpen.pdf"
+              >
+                © GeoBasis-DE / BKG
+            (2023)
+              </a>).
+                      </p>
 
           <p>
             Das Oberflächenmodell wurde anschließend um wichtige verrohrte

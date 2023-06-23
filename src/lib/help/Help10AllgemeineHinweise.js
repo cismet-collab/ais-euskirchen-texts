@@ -58,8 +58,8 @@ const Component = () => {
             (rot). Wassertiefen unter 5 cm werden nicht mehr farbig ausgeprägt
             (transparente Darstellung). Zur Visualisierung der{" "}
             <strong>Fließgeschwindigkeiten</strong>, angegeben in Meter pro
-            Sekunde (m/s), werden die Eckwerte 0,5 m/s (gelb), 2,0 m/s (orange),
-            4,0 m/s (hellrot) und 6,0 m/s (dunkelrot) verwendet. Der untere
+            Sekunde (m/s), werden die Eckwerte 0,5 m/s (gelb), 1,0 m/s (orange),
+            2,0 m/s (hellrot) und 4,0 m/s (dunkelrot) verwendet. Der untere
             Grenzwert für die farbige Anzeige einer Fließgeschwindigkeit liegt
             bei 0,2 m/s.
           </p>

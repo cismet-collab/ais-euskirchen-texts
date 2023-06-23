@@ -34,8 +34,8 @@ const Component = () => {
             unten direkt über dem Eingabefeld) finden Sie das{" "}
             <b>Kontrollfeld</b>, mit dem Sie den weiteren Karteninhalt nach
             Ihren Wünschen festlegen können. Klicken Sie unter <b>Simulation</b>{" "}
-            auf eine der zwei Schaltflächen, um die Starkregensimulation
-            auszuwählen, die angezeigt werden soll (Stärke 7, Stärke 10).
+            auf eine der drei Schaltflächen, um die Starkregensimulation
+            auszuwählen, die angezeigt werden soll (Stärke 7, Stärke 9/10, Niederschlag 2021).
             Details zu den Simulationsberechnungen finden Sie hier in der
             Kompaktanleitung unter{" "}
             <a onClick={() => setAppMenuActiveMenuSection("datengrundlage")}>
@@ -48,16 +48,13 @@ const Component = () => {
             .
           </p>
           <p>
-            Unter <b>Karte</b> können Sie aus drei verschiedenen
-            Hintergrundkarten auswählen: zwei unterschiedlichen Stadtplänen
-            (grau/farbig) und einer Luftbildkarte. Ein Stadtplan eignet sich gut
-            zur Orientierung anhand von Straßen. Die Luftbildkarte stellt eine
-            anschauliche Grundlage dar. Sie eignet sich daher vor allem für die
-            Darstellung räumlicher Zusammenhänge und Nutzungen. Da die
-            Hintergrundkartendienste immer wieder aktualisiert werden, kann es
-            in Einzelfällen zu geringen Abweichungen zu der Datengrundlage des
-            Simualtionsmodells kommen, bis dieses ebenfalls mit den neuen
-            Gebäuden/Objekten fortgeschrieben wird. Näheres zu den Geodaten, die
+          Unter <b>Karte</b> können Sie aus drei verschiedenen Hintergrundkarten auswählen: aus einem Stadtplan (grau)
+            auf Basis der OpenStreetMap, einer Luftbildkarte und der digitalen topographischen Karte. Ein Stadtplan eignet
+            sich gut zur Orientierung anhand von Straßen. Die Luftbildkarte stellt eine anschauliche Grundlage dar, weshalb sie sich
+            vor allem für die Darstellung räumlicher Zusammenhänge und Nutzungen eignet. Die Darstellung der topographischen
+            Karte ermöglicht zudem eine Betrachtung der Flurstücke. Da die Hintergrundkartendienste immer wieder aktualisiert werden,
+            kann es in Einzelfällen zu geringen Abweichungen zu der Datengrundlage des Simulationsmodells kommen, bis dieses ebenfalls
+            mit den neuen Gebäuden/Objekten fortgeschrieben wird. Näheres zu den Geodaten, die
             diesen Karten zu Grunde liegen, finden Sie ebenfalls unter{" "}
             <a onClick={() => setAppMenuActiveMenuSection("datengrundlage")}>
               Datengrundlagen

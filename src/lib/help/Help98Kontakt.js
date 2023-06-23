@@ -30,7 +30,7 @@ const Component = ({ email }) => {
                 Ansprechpartner:innen aus
             den einzelnen Kommunen
               </a>{" "}
-            &nbsp; werden ebenfalls aufgeführt.            
+            werden ebenfalls aufgeführt.            
           </p>
 
           <p style={{ display: "flex" }}>

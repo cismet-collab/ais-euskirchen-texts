@@ -32,7 +32,7 @@ const Component = ({ uiState, uiStateActions }) => {
           <p>
             Im dritten Szenario wurden Niederschlagsdaten vom 14.07.2021
             verwendet und damit ein wichtiger Ausschnitt der Niederschlagsbelastung des
-            Flutereignisses aus 2021 abgebildet. Der Vorregen vom 13.07.2021
+            Ereignisses vim 14. und 15.07.2021 abgebildet. Der Vorregen vom 13.07.2021
             konnte im Rahmen des Projekts nicht betrachtet werden. Grundlage für die Abbildung des
             Niederschlags bilden die Daten aus dem Kooperationsprojekt DX-Offline, die durch das LANUV
             bereitgestellt wurden. Die aufbereiteten Radarniederschlagsdaten bilden das Niederschlagsgeschehen
@@ -43,11 +43,11 @@ const Component = ({ uiState, uiStateActions }) => {
             werden insbesondere auch Hochwasserprozesse betrachtt, wobei keine
             lokale Kalibrierung der Niederschlags-Abflussprozesse erfolgen konnte.
             Neben den Niederschlagsdaten wurden in den Simulationen keine
-            weiteren hydrologischen Daten zum Flutereignis 2021 verwendet. Eine
-            detaillierte Betrachtung des Flutereignisses kann im Rahmen des
+            weiteren hydrologischen Daten zum Ereignis aus 2021 verwendet. Eine
+            detaillierte Betrachtung des Ereignisses kann z. B. im Rahmen des
             Hochwasserrisikomanagements erfolgen. Die vorliegenden Ergebnisse
             berücksichtigten die Niederschlagsbelastung und den Modellstand mit den Geländedaten
-            aus 2021/2022 (nach dem Flutereignis). Weitere Hinweise
+            aus 2021/2022 (nach dem 15.07.2021). Weitere Hinweise
             sind im Reiter{" "}
             <a
               className="renderAsLink"
@@ -89,12 +89,12 @@ const Component = ({ uiState, uiStateActions }) => {
 
             <li>
               <strong>Stärke 9/10</strong>: extremes Starkregenereignis, Dauer
-              60 min, Niederschlagssumme 90 l/m², Blockregen, SRI 9 bzw. 10,
+              60 min, Niederschlagssumme 90 l/m², Blockregen, SRI 9 bzw. 10 (je nach Lage im Kreisgebiet),
               Wiederkehrzeit deutlich größer als 100 Jahre
             </li>
 
             <li>
-              <strong>Niederschlag 14.07.2021</strong>: Ereignis 14.07.2021, Zeitraum 06:30
+              <strong>Niederschlag 14.07.2021</strong>: Abbildung der Niederschlagsbelastung im Zeitraum 06:30
               Uhr bis 22:00 Uhr, räumlich differenzierte Niederschlagsbelastung
               und -verteilung, Betrachtung ortsspezifischer Belastungen,
               Wiederkehrzeiten und Einteilung des SRI erforderlich.
