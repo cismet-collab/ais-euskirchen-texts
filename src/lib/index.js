@@ -61,7 +61,10 @@ const textElementsForOverlays = {
       Für dieses Gewässer bzw. diesen Bereich liegen auch Ergebnisse aus dem
       Hochwasserrisikomanagement vor. Die Hochwassergefahrenkarten sind zur
       Bewertung der Gefährdung heranzuziehen (
-      <a href="https://www.flussgebiete.nrw.de/hochwassergefahrenkarten-und-hochwasserrisikokarten-840">
+      <a
+        target="_hochwassergefahrenkarten_nrw"
+        href="https://www.flussgebiete.nrw.de/hochwassergefahrenkarten-und-hochwasserrisikokarten-8406"
+      >
         weitergehende Informationen
       </a>
       )
