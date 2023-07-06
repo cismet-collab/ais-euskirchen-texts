@@ -47,7 +47,7 @@ const Component = ({ uiState, uiStateActions }) => {
             weiteren hydrologischen Daten zum Ereignis aus 2021 verwendet. Eine
             detaillierte Betrachtung des Ereignisses kann z. B. im Rahmen des
             Hochwasserrisikomanagements erfolgen. Die dargestellten maximalen Wassertiefen und Fließgeschwindigkeiten
-            bilden das die Niederschlagsbelastung vom 14.07.2021 und den Modellstand mit den Geländedaten
+            bilden die Niederschlagsbelastung vom 14.07.2021 und den Modellstand mit den Geländedaten
             aus 2021/2022 (nach dem 15.07.2021) ab. Weitere Hinweise
             sind im Reiter{" "}
             <a
