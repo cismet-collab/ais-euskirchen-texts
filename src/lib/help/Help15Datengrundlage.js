@@ -50,13 +50,13 @@ const Component = () => {
 
           <p>
             Das Oberflächenmodell wurde anschließend um wichtige verrohrte
-            Gewässerabschnitte sowie Geländedurchlässe ergänzt, um eine
-            hydrologisch korrekte Abflussberechnung zu gewährleisten. In diesem
+            Gewässerabschnitte, Geländedurchlässe und weitere Fließhindernisse ergänzt, um eine
+            hydrologisch korrekte Abbildung von potenziellen Fließwegen zu gewährleisten. In diesem
             Rahmen wurden auch weitere Fließhindernisse wie z. B. Mauern ergänzt
             und maßgebliche siedlungswasserwirtschaftliche Bauwerke (Hochwasser-
             und Regenrückhaltebecken) mit ihrer Wirkung im Oberflächenmodell
             abgebildet. Zusätzlich wurden die Gebäude auf Aktualität geprüft und
-            abgerissene oder geplante Gebäude gegebenenfalls angepasst. Sehr
+            abgerissene oder fehlende Gebäude(-teile) gegebenenfalls angepasst. Sehr
             neue Gebäude, die nach dem Modellaufbau fertiggestellt wurden (z. B.
             Neubaugebiete) sind daher noch nicht im Datenbestand erfasst. Hier
             lassen sich aus dem angrenzenden Gelände dennoch wichtige Hinweise
@@ -89,7 +89,7 @@ const Component = () => {
             </li>
 
             <li>
-              Kreis Euskirchen: Auszüge Liegenschaftskataster, Dokumentation
+              Kreis Euskirchen: Auszüge Liegenschaftskataster, Flächennutzung, Dokumentation
               Ereignis vom 14. und 15.07.2021
             </li>
 

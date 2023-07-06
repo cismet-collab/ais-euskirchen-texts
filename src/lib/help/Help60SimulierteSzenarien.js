@@ -32,22 +32,23 @@ const Component = ({ uiState, uiStateActions }) => {
           <p>
             Im dritten Szenario wurden Niederschlagsdaten vom 14.07.2021
             verwendet und damit ein wichtiger Ausschnitt der Niederschlagsbelastung des
-            Ereignisses vim 14. und 15.07.2021 abgebildet. Der Vorregen vom 13.07.2021
+            Ereignisses vom 14. und 15.07.2021 abgebildet. Der Vorregen vom 13.07.2021
             konnte im Rahmen des Projekts nicht betrachtet werden. Grundlage für die Abbildung des
-            Niederschlags bilden die Daten aus dem Kooperationsprojekt DX-Offline, die durch das LANUV
+            Niederschlags bilden Radar-Komposit-Daten aus dem DX-Offline-Projekt, die durch das LANUV
             bereitgestellt wurden. Die aufbereiteten Radarniederschlagsdaten bilden das Niederschlagsgeschehen
             mit einer räumlichen Auflösung von 1 x 1 Kilometern und einer
-            zeitlichen Auflösung von 5 Minuten ab. Die Simulationen betrachten den Niederschlagszeitraum von
-            06:30 Uhr bis 22:00 Uhr. Anschließend werden noch weitere 210
+            zeitlichen Auflösung von 5 Minuten ab. Hierdurch ergibt sich ein zeitlich variabler Intensitätsverlauf
+            über die gesamte Dauer des simulierten Ereignisses. Die Simulationen betrachten den Niederschlagszeitraum am 14.07.2021 von
+            06:30 Uhr bis 22:00 Uhr. Anschließend wurden noch weitere 210
             Minuten Nachlaufzeit simuliert. Mit diesen Simulationsbedingungen
-            werden insbesondere auch Hochwasserprozesse betrachtt, wobei keine
+            werden insbesondere auch Hochwasserprozesse betrachtet, wobei keine
             lokale Kalibrierung der Niederschlags-Abflussprozesse erfolgen konnte.
             Neben den Niederschlagsdaten wurden in den Simulationen keine
             weiteren hydrologischen Daten zum Ereignis aus 2021 verwendet. Eine
             detaillierte Betrachtung des Ereignisses kann z. B. im Rahmen des
-            Hochwasserrisikomanagements erfolgen. Die vorliegenden Ergebnisse
-            berücksichtigten die Niederschlagsbelastung und den Modellstand mit den Geländedaten
-            aus 2021/2022 (nach dem 15.07.2021). Weitere Hinweise
+            Hochwasserrisikomanagements erfolgen. Die dargestellten maximalen Wassertiefen und Fließgeschwindigkeiten
+            bilden das die Niederschlagsbelastung vom 14.07.2021 und den Modellstand mit den Geländedaten
+            aus 2021/2022 (nach dem 15.07.2021) ab. Weitere Hinweise
             sind im Reiter{" "}
             <a
               className="renderAsLink"
@@ -64,7 +65,7 @@ const Component = ({ uiState, uiStateActions }) => {
             Niederschläge in eine Skala von 1 bis 12 einteilt, vergleichbar mit
             der Klassifizierung von Erdbeben nach Mercalli. Der Starkregenindex
             wird durch eine statistische Auswertung von sehr langen vorliegenden
-            Regenmessungen an die örtlichen Gegebenheiten angepasst.Starkregen
+            Regenmessungen an die örtlichen Gegebenheiten angepasst. Starkregen
             mit SRI 6 bis 7 (<strong>außergewöhnliche Starkregen</strong>) haben
             statistische Wiederkehrzeiten von 50 bis 100 Jahren. Für noch
             stärkere <strong>extreme Starkregen</strong> lässt sich aus der
