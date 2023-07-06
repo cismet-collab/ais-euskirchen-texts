@@ -37,7 +37,7 @@ const Component = () => {
             Laserscanner aus einem Flugzeug heraus durchführt (Aufnahme durch
             Laseraltimetrie in den Jahren 2021 und 2022). Für die Simulation wurde das
             DGM1 um die Gebäude aus dem Liegenschaftskataster des Kreises
-            Euskirchen (10/2022) ergänzt. Außerhalb des Kreisgebietes wurden
+            Euskirchen (Stand 10/2022) ergänzt. Außerhalb des Kreisgebietes wurden
             Daten des Bundesamts für Kartographie und Geodäsie verwendet
             (Bundesamt für Kartographie und Geodäsie, <a
                 target="_legal"
