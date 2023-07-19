@@ -1206,9 +1206,9 @@
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
 "@cismet-collab/rainhazardmaps-base-texts@^1.0.0":
-  version "1.1.0"
-  resolved "https://registry.npmjs.org/@cismet-collab/rainhazardmaps-base-texts/-/rainhazardmaps-base-texts-1.1.0.tgz#3f10fac43ffaef4d2316faee56945600b3781a77"
-  integrity sha512-eaHqaDQ+854i9zktye+eu+RxnA+3sp8j/6rJ7viTidEV6N5OXIBkolXs+mev7oGX9AvQKCW0jMqeY60S9dgIBw==
+  version "1.1.1"
+  resolved "https://registry.npmjs.org/@cismet-collab/rainhazardmaps-base-texts/-/rainhazardmaps-base-texts-1.1.1.tgz#90875f4de1cf327f23398fcb3325e3ee9b26e668"
+  integrity sha512-snoaDlabHsMLeq3jOc6JZX/Uz3Cl3Q1s9Q/rzXhcdnrxpLWPS1U7FultGqRI5qKcbRiInPKBpEUvbrEQq+KEpQ==
   dependencies:
     "@testing-library/jest-dom" "^5.16.5"
     "@testing-library/react" "^13.4.0"
@@ -5103,7 +5103,7 @@ depd@~1.1.2:
 
 dequal@^2.0.3:
   version "2.0.3"
-  resolved "https://registry.yarnpkg.com/dequal/-/dequal-2.0.3.tgz#2644214f1997d39ed0ee0ece72335490a7ac67be"
+  resolved "https://registry.npmjs.org/dequal/-/dequal-2.0.3.tgz#2644214f1997d39ed0ee0ece72335490a7ac67be"
   integrity sha512-0je+qPKHEMohvfRTCEo3CrPG6cAzAYgmzKyxRiYSSDkS6eGJdyVJm7WaYA5ECaAD9wLB2T4EEeymA5aFVcYXCA==
 
 destroy@1.2.0:
